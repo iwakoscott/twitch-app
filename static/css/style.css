@@ -78,7 +78,7 @@ td, th, .btn {
   font-family: 'VT323', monospace;
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 495px){
 
   .fa-bars {
     visibility: hidden;
@@ -98,7 +98,7 @@ td, th, .btn {
 
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 493px){
 
   .twitch-logo {
     font-size: 20px;
