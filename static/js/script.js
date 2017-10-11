@@ -38,7 +38,7 @@ function twitchModelView(){
 
       $('.side-bar').animate({
         width: "100%",
-        height: "100%"
+        height: "100vh"
       }, "fast");
 
       window.setTimeout(function(){
@@ -58,7 +58,7 @@ function twitchModelView(){
         $('.embedded-video').css({
           visibility: "visible",
           width: "100%",
-          height: "100%"
+          height: "100vh"
         }, "slow");
       }, 400);
 
