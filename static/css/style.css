@@ -1,0 +1,104 @@
+* {
+  border-radius: 0 !important;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #6441a5 !important;
+  }
+
+.logo {
+  margin: 0;
+  padding: 0;
+  height: 120px;
+  background-color: #6441a5;
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  text-align: center;
+}
+
+.twitch-logo {
+  font-size: 35px;
+  padding: 20px;
+  color: white;
+}
+
+.side-bar {
+  background-color: white;
+  width: 40%;
+  position: relative;
+  overflow: scroll;
+  height: 75%;
+  margin: 0;
+}
+
+.embedded-video {
+  background-color: black;
+  width: 60%;
+  height: 75%;
+  padding: 30px;
+}
+
+.btn {
+  width: 100%;
+  cursor: pointer;
+}
+
+.fa-bars {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.fa-check-circle {
+  color: green;
+}
+
+.fa-times-circle {
+  color: red;
+}
+
+td {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 500px){
+
+  .fa-bars {
+    visibility: hidden;
+  }
+
+  .side-bar {
+    width: 40% !important;
+    height: 75% !important;
+    visibility: visible !important;
+  }
+
+  .embedded-video {
+    width: 60% !important;
+    height: 75% !important;
+    visibility: visible !important;
+  }
+
+}
+
+@media screen and (max-width: 425px){
+
+  .twitch-logo {
+    font-size: 20px;
+  }
+
+  .side-bar{
+    width: 0%;
+  }
+  .embedded-video {
+    width: 100%;
+  }
+  .container-fluid{
+    margin-top: 0px;
+  }
+}
