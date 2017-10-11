@@ -28,15 +28,15 @@ body {
   width: 40%;
   position: relative;
   overflow: scroll;
-  height: 75%;
+  height: 100%;
   margin: 0;
 }
 
 .embedded-video {
   background-color: black;
   width: 60%;
-  height: 75%;
-  padding: 30px;
+  height: 100%;
+  padding: 50px;
 }
 
 .btn {
