@@ -1,5 +1,6 @@
 * {
   border-radius: 0 !important;
+  box-sizing: border-box;
 }
 
 body {
@@ -36,7 +37,10 @@ body {
   background-color: black;
   width: 60%;
   height: 100vh;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .btn {
