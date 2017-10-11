@@ -24,6 +24,7 @@ function twitchModelView(){
   var that = this;
   that.selectedChannels = ko.observableArray(channelsObjects);
   that.streamURL = ko.observable('');
+  that.currentChannel = ko.observable('');
 
   // toggle on click of hamburger icon
   that.toggleSideBar = function(){
@@ -108,7 +109,10 @@ function twitchModelView(){
 
     if (channel.isOnline){
       that.streamURL(twitchStreamURL);
-      alert("Now streaming... " + channelName);
+      if (channelName !== that.currentChannel()){
+        alert("Now streaming... " + channelName);
+      }
+      that.currentChannel(channelName);
     } else {
       that.streamURL('https://giphy.com/embed/14uQ3cOFteDaU');
     }
