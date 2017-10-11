@@ -62,8 +62,9 @@ body {
   color: red;
 }
 
-td {
+td, th, .btn {
   cursor: pointer;
+  font-family: 'VT323', monospace;
 }
 
 @media screen and (min-width: 500px){
