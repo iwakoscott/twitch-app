@@ -54,6 +54,17 @@ body {
   cursor: pointer;
 }
 
+.footer {
+  position: absolute;
+  text-align: center;
+  padding: 20px;
+}
+
+.now-streaming {
+  font-size: 20px;
+  color: yellow;
+}
+
 .fa-check-circle {
   color: green;
 }

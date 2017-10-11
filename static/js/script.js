@@ -108,6 +108,7 @@ function twitchModelView(){
 
     if (channel.isOnline){
       that.streamURL(twitchStreamURL);
+      alert("Now streaming... " + channelName);
     } else {
       that.streamURL('https://giphy.com/embed/14uQ3cOFteDaU');
     }
